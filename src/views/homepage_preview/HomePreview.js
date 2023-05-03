@@ -17,7 +17,7 @@ const HomePreview = () => {
                         <div className="col-lg-12">
                             <div className="search-container">
                             <h1 className="home-title">
-                                <span className="red-text">BSC Chart </span>- UPCOMING
+                                <span className="red-text">ARC Chart </span>- UPCOMING
                             </h1>
                             </div>
                         </div>

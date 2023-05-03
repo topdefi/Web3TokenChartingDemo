@@ -28,6 +28,16 @@ import explorerTron from "../img/explorer/tronscan.png";
 
 
 const EnumChainInfos = {
+    ARC: {
+        id: 1243,
+        "dex": "https://app.archieswap.io/swap?outputCurrency=$TOKEN$",
+        "chart": "",
+        "explorer": "https://app.archiescan.io/token/$TOKEN$",
+        "dex_img": dexBsc,
+        "chart_img": chartBsc,
+        "explorer_img": explorerBsc,
+        "chain_img": chainBsc
+    },
     BSC: {
         id: 56,
         "dex": "https://pancakeswap.finance/swap?outputCurrency=$TOKEN$",
