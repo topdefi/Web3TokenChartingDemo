@@ -18,19 +18,14 @@ const Home = () => {
                     <div className="row">
                         <div className="col-lg-12">
                             <div className="mobile-only text-center">
-                                <Title title_txt={' VIEW PRICE CHART FOR ANY TOKEN'} />
+                                <Title title_txt={' VIEW TOKEN PRICES'} />
                             </div>
                             <div className="search-container">
                                 <div className="desktop-only">
-                                    <Title title_txt={' VIEW PRICE CHART FOR ANY TOKEN '} />
+                                    <Title title_txt={' VIEW TOKEN PRICES '} />
                                 </div>
                                 <Search />
                             </div>
-                        </div>
-                    </div>
-                    <div className="row">
-                        <div className="col-lg-12">
-                            <FeaturedTokens featured_txt="Featured tokens"/>
                         </div>
                     </div>
 

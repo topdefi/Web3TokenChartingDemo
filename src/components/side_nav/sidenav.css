@@ -11,43 +11,6 @@
     justify-content: space-between;
 }
 
-.sidenav-ul {
-    list-style: none;
-}
-
-.sidenav-ul li:first-child {
-    margin-top: .9rem;
-}
-
-.sidenav-ul a {
-    text-decoration: none;
-}
-
-.sidenav-links {
-    margin-top: 1.2rem;
-}
-
-.sidenav-icons {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.sidenav-text{
-    font-size: 9px;
-    font-weight: 600;
-    line-height: 1.5;
-    color: var(--white);
-}
-
-.sidenav-links:first-child .sidenav-img {
-    height: 30px;
-}
-
-.sidenav-img {
-    height: 35px;
-}
-
 .daily-winner a {
     line-height: 1;
 }
@@ -75,10 +38,6 @@
 .side-nav-door {
     font-size: 20px;
     color: var(--grayish-text);
-}
-
-.sidenav-img.small {
-    height: 28px;
 }
 
  

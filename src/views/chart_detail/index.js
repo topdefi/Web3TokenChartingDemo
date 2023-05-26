@@ -113,7 +113,6 @@ const TokenChart = () => {
                     </div>
                 </div>
             </section>
-            {/* <SideNav /> */}
         </div>
     )}
 }

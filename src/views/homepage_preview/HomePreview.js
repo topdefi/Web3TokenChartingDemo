@@ -5,7 +5,6 @@ import "../homepage/home.css";
 
 //component
 import Header from "../../components/header/Header";
-import SideNav from "../../components/side_nav/SideNav";
 
 const HomePreview = () => {
     return (
@@ -17,14 +16,13 @@ const HomePreview = () => {
                         <div className="col-lg-12">
                             <div className="search-container">
                             <h1 className="home-title">
-                                <span className="red-text">ARC Chart </span>- UPCOMING
+                                <span className="red-text">ArchieSwap Charts </span>- UPCOMING
                             </h1>
                             </div>
                         </div>
                     </div>
                 </div>
             </section>
-            <SideNav />
         </div>
     )
 }

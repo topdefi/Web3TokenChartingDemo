@@ -1,7 +1,7 @@
 .header {
     background: var(--black);
     height: 50px;
-    width: calc(100% - 75px);
+    width: 100vw;
     display: flex;
     align-items: center;
     position: fixed;

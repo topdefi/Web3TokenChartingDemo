@@ -107,16 +107,16 @@ const LightViewChart = () => {
         } else { // light mode
             chart.applyOptions({
                 layout: { 
-                    backgroundColor: '#f7f7f7',
-                    textColor: '#6f6f6f',
+                    backgroundColor: '#1b1c21',
+                    textColor: '#afa4b4',
                     fontSize: 9
                 },
                 grid: {
                     vertLines: {
-                        color: '#ececec',
+                        color: '#202025',
                     },
                     horzLines: {
-                        color: '#ececec',
+                        color: '#202025',
                     },
                 },
                 priceScale: {
@@ -124,7 +124,7 @@ const LightViewChart = () => {
                 },
                 timeScale: {
                     timeVisible: true,
-                    borderColor: '#9e9e9e',
+                    borderColor: '#535354',
                 }
             })
         }

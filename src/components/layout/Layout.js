@@ -3,7 +3,6 @@ import { useLocation } from "react-router-dom";
 
 //components
 import Header from "../header/Header";
-import SideNav from "../side_nav/SideNav";
 
 
 const Layout = ({children}) => {
@@ -17,7 +16,6 @@ const Layout = ({children}) => {
             <main className="main">
                 {children}
             </main>
-            {location.pathname.includes("chart/lightview") || location.pathname.includes("chart/tradingview") ? null : <SideNav  />}
         </div>
     )
 }
