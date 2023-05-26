@@ -1,33 +1,33 @@
 body.light {
     --white:#fff;
     --black:#000;
-    --red:#f24462;
+    --red:#10808c;
     --gray:#636363;
-    --home-bg:#f7f7f7;
+    --home-bg:#17171a;
     --tag-bg:#272c33;
     --dark-gray:#17191e;
     --info-body:#24252b;
-    --green-txt:#03c768;
+    --green-txt:#22e386;
     --red-txt:#ff2b2b;
     --blue:#00204C;
     --kind-yellow: #f2f0ec;
     --light-gray:#f4f6fc;
-    --address-tag:#4d4e50;
+    --address-tag:#fff;
 
-    --black-white:#000;
-    --blue-white:#00204C;
-    --white-black:#fff;
-    --gray-lightgray:#636363;
-    --dark-light:#fff;
-    --white-darkgray:#fff;
-    --lightgray-darkgray:#f4f6fc;
+    --black-white:#fff;
+    --blue-white:#fff;
+    --white-black:#000;
+    --gray-lightgray:#eee;
+    --dark-light:#e6e1e1;
+    --white-darkgray:#0f0e0f;
+    --lightgray-darkgray:#272c33;
 
     /* darkmode */
     --copy-paste:#817f7f86;
     
 
     --headerbtn-bg:#363840;
-    --searchcontainer-bg:#1a1c21;
+    --searchcontainer-bg:#0f0e0f;
     --purple-shadow:#e9d4ed;
 
     
