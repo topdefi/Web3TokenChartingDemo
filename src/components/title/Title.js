@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../../img/logo.png"
+import logo from "../../img/title-logo.png"
 
 const Title = ({title_txt}) => {
     return (
