@@ -4,6 +4,7 @@ import chainEth from "../img/chain/eth.png";
 import chainPolygon from "../img/chain/polygon.png";
 import chainSolana from "../img/chain/solana.png";
 import chainTron from "../img/chain/tron.png";
+import chainArc from "../img/chain/arc.png";
 
 import chartAvalanche from "../img/charts/pangolin.png";
 import chartBsc from "../img/charts/poocoin.png";
@@ -11,6 +12,7 @@ import chartEth from "../img/charts/dextools.png";
 import chartPolygon from "../img/charts/dextools.png";
 import chartSolana from "../img/charts/solape.png";
 import chartTron from "../img/charts/justswap.png";
+import chartArc from "../img/charts/arcswap.png";
 
 import dexAvalanche from "../img/dex/pangolin.png";
 import dexBsc from "../img/dex/pancakeswap.png";
@@ -18,6 +20,7 @@ import dexEth from "../img/dex/uniswap.png";
 import dexPolygon from "../img/dex/quickswap.png";
 import dexSolana from "../img/dex/raydium.png";
 import dexTron from "../img/dex/justswap.png";
+import dexArc from "../img/dex/arcswap.png";
 
 import explorerAvalanche from "../img/explorer/avax_explorer.png";
 import explorerBsc from "../img/explorer/bscscan.png";
@@ -25,6 +28,7 @@ import explorerEth from "../img/explorer/etherscan.png";
 import explorerPolygon from "../img/explorer/polygonscan.png";
 import explorerSolana from "../img/explorer/solana.png";
 import explorerTron from "../img/explorer/tronscan.png";
+import explorerArc from "../img/explorer/archiescan.png";
 
 
 const EnumChainInfos = {
@@ -33,10 +37,10 @@ const EnumChainInfos = {
         "dex": "https://app.archieswap.io/swap?outputCurrency=$TOKEN$",
         "chart": "",
         "explorer": "https://app.archiescan.io/token/$TOKEN$",
-        "dex_img": dexBsc,
-        "chart_img": chartBsc,
-        "explorer_img": explorerBsc,
-        "chain_img": chainBsc
+        "dex_img": dexArc,
+        "chart_img": chartArc,
+        "explorer_img": explorerArc,
+        "chain_img": chainArc
     },
     BSC: {
         id: 56,

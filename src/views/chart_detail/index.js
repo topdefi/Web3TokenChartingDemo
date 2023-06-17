@@ -60,9 +60,6 @@ const TokenChart = () => {
             <section className="chart-bg">
                 <div className="container">
                     <div className="row">
-                        <div className="col-lg-12">
-                            <FeaturedTokens chart_featured featured_txt="Get featured for free" />
-                        </div>
                     </div>
                     <div className="row">
                         <div className="col-lg-12">
@@ -75,15 +72,15 @@ const TokenChart = () => {
                                     </div>
                                 </div>
                                 <div className="second-row"> 
-                                    <ChartTag token_address={token.contract} token_chain={'bsc'} />
+                                    <ChartTag token_address={token.contract} token_chain={'arc'} />
                                     <ChartLinks 
                                     btn1_text="Trade" 
                                     website={token.website}
                                     telegram={token.telegram}  
-                                    token_chain={'bsc'}  
+                                    token_chain={'arc'}  
                                     token_contract={token.contract}
                                     />
-                                    <ChtrList symbol={token.symbol} address={token.contract} chain={'bsc'} />      
+                                    <ChtrList symbol={token.symbol} address={token.contract} chain={'arc'} />      
                                 </div>
                                 <div className="third-row mobile-only">
                                     <Search />

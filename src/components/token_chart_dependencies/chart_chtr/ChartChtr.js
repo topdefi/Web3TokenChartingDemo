@@ -1,6 +1,6 @@
 import React from "react";
 //img
-import bsc_scan from "../../../img/bsc-scan.png"
+import bsc_scan from "../../../img/archie-scan.png"
 
 const ChartChtr = ({chtr_text, chtr_link}) => {
     return (
