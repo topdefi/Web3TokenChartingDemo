@@ -32,7 +32,7 @@ const Header = ({
                             <div className="logo-box">
                                 <Link to="/">
                                     <img src={logo} alt="logo" />
-                                    {/*<span className="logo-txt flicker">ArchieSwap <span className="change-color">Charts</span></span>*/}
+                                    {/*<span className="logo-txt flicker">ExzoSwap <span className="change-color">Charts</span></span>*/}
                                 </Link>
                             </div>
                             <div className="menu-burguer">

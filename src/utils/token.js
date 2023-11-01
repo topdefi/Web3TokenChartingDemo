@@ -69,15 +69,15 @@ function capitalizeFirstLetter(string) {
     return string.charAt(0).toUpperCase() + string.slice(1);
 }
 function getRouterName( address ){
-    for( let router in EnumContracts[EnumChainId.ARC].ROUTERS ){
-        if( address.toLowerCase() == EnumContracts[EnumChainId.ARC].ROUTERS[router].toLowerCase() ) return capitalizeFirstLetter(router.toLowerCase());
+    for( let router in EnumContracts[EnumChainId.XZO].ROUTERS ){
+        if( address.toLowerCase() == EnumContracts[EnumChainId.XZO].ROUTERS[router].toLowerCase() ) return capitalizeFirstLetter(router.toLowerCase());
     }
     return 'N/A'
 }
 function getRouterLogo( address ){
-    for( let router in EnumContracts[EnumChainId.ARC].ROUTERS ){
-        if( address.toLowerCase() == EnumContracts[EnumChainId.ARC].ROUTERS[router].toLowerCase() ) {
-            return EnumContracts[EnumChainId.ARC].ROUTERS_LOGO[router];
+    for( let router in EnumContracts[EnumChainId.XZO].ROUTERS ){
+        if( address.toLowerCase() == EnumContracts[EnumChainId.XZO].ROUTERS[router].toLowerCase() ) {
+            return EnumContracts[EnumChainId.XZO].ROUTERS_LOGO[router];
         }
     }
     return questionMark;

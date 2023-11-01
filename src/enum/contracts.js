@@ -1,17 +1,17 @@
 import EnumChainId from "./chain.id";
 
-import dexArc from "../img/dex/arcswap.png";
+import dexXzo from "../img/dex/xzoswap.png";
 
 const EnumContracts = {
-    [EnumChainId.ARC]: {
+    [EnumChainId.XZO]: {
         ROUTERS: {
-            ARCSWAP: "0x052967739A95D258c44Cf9a79F3135c1291d9fe5",
+            XZOSWAP: "0x649795E53A9b69CB76A71f1ad1038039F9c65Ab5",
         },
         ROUTERS_LOGO: {
-            ARCSWAP: dexArc,
+            XZOSWAP: dexXzo,
         },
         FACTORIES: {
-            ARCSWAP: "0x265beF08d618051A923502C106aE9002159d9bdF",
+            XZOSWAP: "0x2c97D1fd450105cc69E05a4127E425bf4b826264",
         },
 
     }

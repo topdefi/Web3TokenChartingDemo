@@ -38,7 +38,7 @@ const ChartTokenTx = ({
                     <td>{UtilsToken.getPrice(amount, false)}</td>
                     <td>{new Date(tx.time*1000).toLocaleTimeString()}</td>
                     <td>
-                        <a href={`https://app.archiescan.io/tx/${tx.hash}`} target="_blank">
+                        <a href={`https://evm.exzoscan.io/tx/${tx.hash}`} target="_blank">
                         {tx.hash.substring(0,5) + '...' + tx.hash.substring(tx.hash.length-5,tx.hash.length)}
                         </a>
                     </td>
